@@ -23,6 +23,7 @@ A estrutura do projeto foi dividia em 4 pastas;
 
 -> app:
 InterfaceUsuario.java 
+
 Main.java
 
 -> model:
@@ -33,9 +34,13 @@ GerenciadorLeituras.java
 
 -> service:
 APLIclimatica.java
+
 AtualizarLeitura.java
+
 CadastrarLeitura.java
+
 ExcluirLeitura.java
+
 ListarLeituras.java
 
 ---
