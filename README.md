@@ -4,6 +4,7 @@
 Este é um sistema de gerenciamento climático desenvolvido em Java que permite o monitoramento de condições climáticas de qualquer cidade em tempo real. Usando o formato de funcionamento do CRUD, com integração à API externa.
 
 ---
+
 -> Funcionalidades Principais:
 1. CADASTRAR LEITURAS
     - Você digita o nome de uma cidade, o sistema conecta na API do OpenWeatherMap e busca os dados climáticas atuais, salvando automaticamente no banco de dados.
@@ -31,12 +32,12 @@ LeituraClimatica.java
 GerenciadorLeituras.java
 
 -> service:
-
-APIClimatica.java
+APLIclimatica.java
 AtualizarLeitura.java
 CadastrarLeitura.java
 ExcluirLeitura.java
 ListarLeituras.java
+
 ---
 
 -> É NECESSÁRIO:
