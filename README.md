@@ -22,17 +22,24 @@ Este é um sistema de gerenciamento climático desenvolvido em Java que permite 
 A estrutura do projeto foi dividia em 4 pastas;
 
 -> app:
+
 InterfaceUsuario.java 
 
 Main.java
 
+
 -> model:
+
 LeituraClimatica.java
 
+
 -> repository:
+
 GerenciadorLeituras.java
 
+
 -> service:
+
 APLIclimatica.java
 
 AtualizarLeitura.java
