@@ -1,7 +1,7 @@
 ---SISTEMA DE MONITORAMENTO CLIMÁTICOS---
 
 -> O que é este projeto? 
-Este é um sistema de gerenmento climático desenvolvido em Java que permite monitorar condições climáticas de qualquer cidade em tempo real. Usando o formato de funcionamento do CRUD, com integração à API externa.
+Este é um sistema de gerenciamento climático desenvolvido em Java que permite o monitoramento de condições climáticas de qualquer cidade em tempo real. Usando o formato de funcionamento do CRUD, com integração à API externa.
 
 ---
 -> Funcionalidades Principais:
@@ -19,19 +19,23 @@ Este é um sistema de gerenmento climático desenvolvido em Java que permite mon
     - Remove leituras do sistema.
    
 A estrutura do projeto foi dividia em 4 pastas;
+
 -> app:
-1. InterfaceUsuario.java 
-2. Main.java
+InterfaceUsuario.java 
+Main.java
+
 -> model:
-3. LeituraClimatica.java
+LeituraClimatica.java
+
 -> repository:
-4. GerenciadorLeituras.java
+GerenciadorLeituras.java
+
 -> service:
-5. APIClimatica.java
-6. AtualizarLeitura.java
-7. CadastrarLeitura.java
-8. ExcluirLeitura.java
-9. ListarLeituras.java
+APIClimatica.java
+AtualizarLeitura.java
+CadastrarLeitura.java
+ExcluirLeitura.java
+ListarLeituras.java
 ---
 
 -> É NECESSÁRIO:
@@ -45,6 +49,6 @@ A estrutura do projeto foi dividia em 4 pastas;
 3. Após isso, dentro da pasta service procure a classe APIClimatica.java e adicione a sua chave na linha 11 dentro das aspas em: private static final String API_KEY = "SUA_CHAVE_AQUI";
 
 Para iniciar o programa, execute o arquivo Main.java.
-O sistema iniciará automaticamente com o menu principal.
+O sistema iniciará automaticamente com o menu principal no terminal.
 
 

@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 import repository.GerenciadorLeituras;
 
-// IMPORTS CORRETOS (estão no pacote service)
 import service.CadastrarLeitura;
 import service.ListarLeituras;
 import service.AtualizarLeitura;
